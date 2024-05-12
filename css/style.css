@@ -12938,7 +12938,7 @@ html.rd-navbar-fixed-linked .page {
 
 .rd-navbar-corporate .rd-navbar-fullwidth .rd-navbar-top-panel,
 .rd-navbar-corporate .rd-navbar-static .rd-navbar-top-panel {
-	display: flex;
+	display: none;
 }
 
 .rd-navbar-corporate .rd-navbar-fullwidth.rd-navbar--is-stuck .rd-navbar-top-panel,
