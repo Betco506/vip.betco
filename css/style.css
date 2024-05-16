@@ -14357,6 +14357,7 @@ html.tablet .ui-to-top {
 
 .swiper-container-horizontal .swiper-pagination .swiper-pagination-bullet {
 	margin: 0 15px;
+	display: none;
 }
 
 /* 3D Container */
