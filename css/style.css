@@ -12910,6 +12910,8 @@ html.rd-navbar-fixed-linked .page {
 
 .rd-navbar-corporate .rd-navbar-panel {
 	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .rd-navbar-corporate .rd-navbar-fixed .rd-navbar-aside-right {
