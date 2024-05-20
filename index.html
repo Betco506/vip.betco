@@ -104,7 +104,7 @@
         </div>
       </header>
 	  
-<section class="section">
+<section class="section" style="padding: 75px 0;">
   <div class="container">
     <style>
       .content-wrapper {
@@ -119,14 +119,37 @@
         height: auto;
         margin: 0 auto;
       }
-      .content-wrapper h2, .content-wrapper h3, .content-wrapper p {
+      .content-wrapper h2 {
         font-weight: bold;
-        margin: 10px 0;
-        color: inherit; /* Usar el color por defecto de la página */
+        font-size: 36px; /* Título más grande */
+        color: black; /* Color del texto negro */
+        margin: 20px 0; /* Espaciado vertical */
+      }
+      .content-wrapper h3 {
+        font-weight: bold;
+        font-size: 28px; /* Título más grande */
+        color: black; /* Color del texto negro */
+        margin: 20px 0; /* Espaciado vertical */
+      }
+      .content-wrapper p {
+        font-weight: bold;
+        font-size: 20px; /* Texto más grande */
+        color: black; /* Color del texto negro */
+        margin: 20px 0; /* Espaciado vertical */
       }
       .content-wrapper .button {
         display: inline-block;
         margin: 20px auto;
+        padding: 10px 20px;
+        color: white;
+        background-color: red; /* Color del botón rojo */
+        border: none;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .content-wrapper .button:hover {
+        background-color: yellow; /* Cambia a amarillo al pasar el mouse */
+        color: black; /* Cambia el texto a negro */
       }
     </style>
     <div class="content-wrapper">
