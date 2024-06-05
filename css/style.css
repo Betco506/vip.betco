@@ -12071,7 +12071,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .rd-navbar-fixed .rd-navbar-toggle {
-	display: inline-block;
+	display: none;
 }
 
 .rd-navbar-fixed .rd-navbar-brand {
@@ -12394,13 +12394,14 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	opacity: 1;
 	pointer-events: auto;
 	z-index: 999;
+	display: none;
 }
 
 .rd-navbar-fixed .rd-navbar-collapse-toggle {
 	position: fixed;
 	right: 4px;
 	top: 4px;
-	display: inline-block;
+	display: none;
 	z-index: 1000;
 }
 
